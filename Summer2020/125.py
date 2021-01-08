@@ -18,7 +18,6 @@ class Solution:
 
       return not stack
 
-          
-      
+
 """dict = {'(':')', '{':'}', '[':']'}
 print(dict["{"])"""
