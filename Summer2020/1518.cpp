@@ -10,6 +10,7 @@ public:
         int totalBottles = 0;
         int emptyBottles = 0;
         
+        
         while (numBottles > 0) {
             totalBottles += numBottles;
             int consumed = numBottles;
