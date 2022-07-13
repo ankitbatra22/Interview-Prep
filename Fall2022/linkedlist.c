@@ -57,3 +57,33 @@ void clearList(linked_list_t* list) {
   list->start = NULL;
   list->end = NULL;
 }
+
+
+
+ode_t*    a = (node_t*) malloc(sizeof(node_t));
+    node_t*    b = (node_t*) malloc(sizeof(node_t));
+    node_t*    c = (node_t*) malloc(sizeof(node_t));
+    node_t*    d = (node_t*) malloc(sizeof(node_t));
+    node_t*    e = (node_t*) malloc(sizeof(node_t));
+    node_t*    f = (node_t*) malloc(sizeof(node_t));
+
+    a->x = 160;
+    a->y = 120;
+    a->prev = NULL;
+    b->x = 150;
+    b->y = 120;
+    b->next = NULL;
+    a->next = b;
+    b->prev = a;
+
+    tail.start = a;
+    tail.end = b;
+
+    c->x = 140;
+    c->y = 120;
+    d->x = 130;
+    d->y = 120;
+    e->x = 120;
+    e->y = 120;
+    f->x = 110;
+    f->y = 120;
